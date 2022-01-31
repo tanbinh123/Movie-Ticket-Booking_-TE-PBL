@@ -2,7 +2,9 @@ package com.group5.pbl.entity;
 
 import java.sql.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
@@ -14,9 +16,18 @@ public class Movie {
 	
 	
 	@Id
+	@GeneratedValue
 	private Integer movieID;
 	private String title;
-	private String description;
+	
+	@Column(length=1000)
+	private String description;	
+	
+	private Date duration;
+	private String language;
+	private String  image;
+	private String Trailer;
+	
 	public Integer getMovieID() {
 		return movieID;
 	}
@@ -59,8 +70,5 @@ public class Movie {
 	public void setTrailer(String trailer) {
 		Trailer = trailer;
 	}
-	private Date duration;
-	private String language;
-	private String  image;
-	private String Trailer;
+
 }

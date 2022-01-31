@@ -18,6 +18,7 @@ public class userController {
 	@PostMapping("/addUser")
 	public String registerUserr(@RequestBody User user) {
 		service.addUser(user);
+		System.out.println(user);
 		String hi = "User Registered";
 		return hi;
 	}

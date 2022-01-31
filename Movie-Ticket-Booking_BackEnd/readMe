@@ -1,0 +1,20 @@
+user data
+{
+    "name":"Tejas",
+    "email":"Tejas@gmail.com",
+    "password":"1234",
+    "role":"2",
+    "username":"tejas4564"
+}
+
+movie data
+
+
+{
+	"title" : "Wonder Woman 1984",
+    "description" : "Set in 1984 during the Cold War, the film follows Diana and her past love Steve Trevor as they face off against Max Lord and Cheetah. Discussion of a sequel began shortly after the release of the first film in June 2017 and the decision to proceed was confirmed the following month." ,
+    "duration" : "2021-02-01T01:46:56.123+05:30" ,
+	"language" : "Hindi" ,
+	"image" : "https://static3.srcdn.com/wordpress/wp-content/uploads/2020/12/Gal-Gadot-in-Wonder-Woman-1984-Poster.jpg",
+	"Trailer" :"https://www.youtube.com/watch?v=1Q8fG0TtVAY"
+}

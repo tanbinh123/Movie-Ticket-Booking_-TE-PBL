@@ -8,6 +8,6 @@ import com.group5.pbl.entity.User;
 
 public interface userRepository extends JpaRepository<User,Integer>{
 	
-	public User findbyEmailAndPassword(String email,String password);
+//	public User findbyEmailAndPassword(String email,String password);
 	
 }
